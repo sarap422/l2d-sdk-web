@@ -1,0 +1,8 @@
+#canvasL2D {
+  width: 400px;
+}
+
+/* 幅全体に表示 */
+#canvasL2D canvas {
+  width: 100%;
+}
