@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+</head>
+<head>
+<!-- ▼CSS：Reset, FrameWork （上書きすることがあるので上に書く） -->
+<link rel="stylesheet" href="https://unpkg.com/destyle.css@3.0.2/destyle.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/musubii@7.1.0/dist/musubii.min.css" />
+<link rel="stylesheet" href="dist/canvas.css" />
+
+<!-- ▼font：ゴシック, 明朝体, 丸字 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp.min.css" rel="stylesheet" media="print" onload='this.media="all"' />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet" media="print" onload='this.media="all"' />
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload='this.media="all"' />
+<!-- font：英字, 数字他 -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" media="print" onload='this.media="all"' />
+<!-- font：英数字用 -->
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload='this.media="all"' />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload='this.media="all"' />
+
+<!-- ▼jQuery：JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Live2DCubism -->
+<script src="https://unpkg.com/core-js-bundle@3.6.1/minified.js"></script>
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://www.lining-moon.casa/l2d/dist/bundle.js"></script>
+</head>
+
+<!-- ▼body -->
+<!-- responsejs v0.10.1（ブレイクポイント） -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/response.js/0.10.1/response.min.js"></script>
+<body id="CodePen" data-responsejs='{"create": [
+{ "prop":"width","prefix": "src","mode": "src","breakpoints":[0,600,768,960,1200,1400] }
+]}'>
+<!-- ▼marble（総囲い：bodyの下に背景作るjs等あるので別で囲む） -->
+<div class="marble-phantasm">
+  <div id="canvasL2D"></div>
+</div><!-- /.marble（総囲い） -->
+</body>
+
+</html>
